@@ -1,8 +1,8 @@
-# Figma Design to Code Conversion - MERN Stack Course Task
+# MERN Stack Course Task 1 - **"Figma Design to Code"** 
 
 This repository showcases the conversion of a modern Figma web design into a fully functional frontend using HTML, CSS, and JavaScript. This project was completed as part of our MERN Stack learning journey to enhance our UI development skills and understanding of design-to-code workflows.
 
-## 🛠️ Technologies Used
+## Technologies Used 🛠️
 
 - HTML5  
 - CSS3  
@@ -11,7 +11,7 @@ This repository showcases the conversion of a modern Figma web design into a ful
 
 > _Note: This repository only covers the frontend (UI) part of the MERN stack. Backend (Node.js, Express, MongoDB) will be implemented in future tasks._
 
-## 👨‍💻 Contributors
+## Contributors 😎
 
 <table>
   <tr>
@@ -19,6 +19,7 @@ This repository showcases the conversion of a modern Figma web design into a ful
     <td align="center"><a href="https://github.com/2NCE3"><img src="https://avatars.githubusercontent.com/2NCE3" width="100px;" alt=""/><br /><sub><b>Peter Pain</b></sub></a><br />@2NCE3</td>
   </tr>
 </table>
+
 
 <!-- 
 ## 🧠 Learning Outcomes
@@ -28,6 +29,7 @@ This repository showcases the conversion of a modern Figma web design into a ful
 - Practice with responsive design for multiple screen sizes
 - Collaboration using GitHub workflow 
 -->
+
 
 ## 📌 Future Plans
 - Convert to React components (MERN Stack integration)
