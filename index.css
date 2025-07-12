@@ -536,9 +536,6 @@ body{
 /* responsive homepage end */
 
 
-
-
-
 /*
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -548,11 +545,12 @@ body{
 */
 
 .homePage2{
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 50px;
     width: 100%;
 }
@@ -769,36 +767,60 @@ body{
      background-color: #f08f64; 
      padding-left:140px;
      padding-right:140px;
+     overflow-x: hidden;
   }
-    
+
+  @media screen and (max-width:1860px) {
+    .homepage4{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+  }
+  @media screen and (max-width:1790px) {
+    .homepage4{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+  }
+  @media screen and (max-width:1700px) {
+    .homepage4{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+  }
+  @media screen and (max-width:1690px) {
+    .homepage4{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+  }
+  @media screen and (max-width:1590px) {
+    .homepage4{
+        display: flex;
+        flex-direction: column;
+    }
+
+  }
+/*
+homepage 4 er aro responsive kor te hobe next time
+*/
 
 .homepage4inside{
-    /* margin: auto; */
-    /* width: 100px; */
     height: 830px;
-    /* padding: 0px; */
     margin-bottom: 50px;
-    /* align-content: center; */
     display: flex;
 }
 
 .content4{
     width: 950px;
-    /* background-color: rgb(255, 255, 255); */
     height: 750px;    
-    /* display: flex; */
     margin: auto;
-    /* gap: 30px; */
-    /* flex-direction: column; */
 }
 
 .latest{
-    /* width: 100%; */
     font-size: 45px;
     text-transform: uppercase;
-    /* display: f ; */
     padding: 30px;
-    /* background-color: blue; */
 }
 
 
@@ -808,13 +830,12 @@ body{
     /* background-color: #df47b9;     */
 }
 .page2photoleft{
-    display: flex;
+    display: flex;    
 }
 
 .imgbox{
     position: relative;
     padding: 8px;
-    /* display: ; */
     left: 25px;
 }
 
@@ -839,14 +860,12 @@ body{
     font-weight: 500;
 }
 
-
 .boxwithphot{
     display: flex;
     width: 100%;
     /* background-color: #32d255; */
     margin: auto;
 }
-
 
 .bwp{
     margin-bottom: 70px;
@@ -897,33 +916,61 @@ body{
 
 
 @media screen and (max-width: 1600px) {
-     .homepage4{
+    .homepage4{
       background-color: #f08f64; 
       padding: 0px;
     }
+    .latest{
+        padding: 20px;
+    }
     .page2photoleft{
-        height: auto;
+        height: 600px;
+        margin: auto;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .imgbox{
+        max-width: 440px;
+        height: 600px;
+        margin: auto;
+        align-content: center;
+        padding: 0px;
+        left: 0px;
+    }
+
+    .phototextHP4{
+        max-width: 440px;
+        height: 600px;
     }
 }
 
-@media screen and (max-width: 960px) {
-    .homepage4{
-      padding: 0px;
-      background-color: #00ff00; 
-      padding: 0px;
-    }
+
+@media screen and (max-width: 980px) {
     .page2photoleft{
-        background-color: #00ff00; 
+        flex-direction: column;
+        /* background-color: rebeccapurple ; */
         height: auto;
+    } 
+    .imgbox{
+        /* max-width: 440px; */
+        /* height: 600px; */
+        margin: auto;
+        align-content: center;
+        padding: 0px;
+        left: 0px;
+    } 
+    .latest{
+        padding: 50px; 
+    }
+    .right4{
+        margin: auto;
+        margin-top: 600px;
     }
 }
 
 
 @media screen and (max-width: 1600px) {
-    .homepage4{
-    /* margin-bottom: 0px; */
-    padding-bottom: 620px;
-    }
     .homepage4inside, 
     .homepage4{
         display: flex;
@@ -941,23 +988,4 @@ body{
     .right4{
         margin: auto;
     }
-    .phototextHP4{
-        width: 840px;
-    }
-}
-
-@media screen and (max-width: 980px) {
-    .page2photoleft{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    }
-    .content4{
-        margin: auto;
-        flex-direction: column;
-        margin-bottom: 550px;
-    }
-    
-    
 }
