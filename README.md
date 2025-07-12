@@ -1,4 +1,4 @@
-# MERN Stack Course Task 01 of  *Figma Design to Code Conversion*
+# MERN Stack Course Task 01 of  *"Figma Design to Code"*
 
 This repository showcases the conversion of a modern Figma web design into a fully functional frontend using HTML, CSS, and JavaScript. This project was completed as part of our MERN Stack learning journey to enhance our UI development skills and understanding of design-to-code workflows.
 
@@ -40,7 +40,7 @@ This repository showcases the conversion of a modern Figma web design into a ful
 
 ## 🌐 Live Preview
 
-🔗 [Click here to view the live demo](https://figma-design-to-code.vercel.app/)
+🔗 [Click here to view the live demo](https://figmatocode1.vercel.app/)
 
 > This project is deployed using [Vercel](https://vercel.com/), ensuring fast and reliable hosting.
 
