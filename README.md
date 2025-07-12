@@ -9,7 +9,7 @@ This repository showcases the conversion of a modern Figma web design into a ful
 - JavaScript (vanilla)  
 - Figma [(for design reference)](https://www.figma.com/design/is3KM44uHAxDSzwxNLev2H/Narratica---Blog-Landing-Page--Community-?node-id=0-1&p=f)
 
-> _Note: This repository only covers the frontend (UI) part of the MERN stack. Backend (Node.js, Express, MongoDB) will be implemented in future tasks._
+<!-- > _Note: This repository only covers the frontend (UI) part of the MERN stack. Backend (Node.js, Express, MongoDB) will be implemented in future tasks._ -->
 
 ## Contributors 😎
 
