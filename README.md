@@ -26,19 +26,6 @@ This repository showcases the conversion of a modern Figma web design into a ful
   </tr>
 </table>
 
-## 📁 Folder Structure
-
-/project-root
-│
-├── index.html
-├── /assets
-│ └── images, icons, etc.
-├── /css
-│ └── style.css
-├── /js
-│ └── main.js
-└── README.md
-
 
 ## 🧠 Learning Outcomes
 
