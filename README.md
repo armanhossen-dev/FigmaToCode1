@@ -2,12 +2,6 @@
 
 This repository showcases the conversion of a modern Figma web design into a fully functional frontend using HTML, CSS, and JavaScript. This project was completed as part of our MERN Stack learning journey to enhance our UI development skills and understanding of design-to-code workflows.
 
-## 🚀 Project Overview
-
-- ✨ **Goal**: Recreate a given Figma design using clean, responsive HTML/CSS and JavaScript.
-- 💡 **Focus**: UI structure, design accuracy, and component-based thinking.
-- 📚 **Part of**: MERN Stack Learning Course
-
 ## 🛠️ Technologies Used
 
 - HTML5  
@@ -26,13 +20,14 @@ This repository showcases the conversion of a modern Figma web design into a ful
   </tr>
 </table>
 
-
+<!-- 
 ## 🧠 Learning Outcomes
 
 - Hands-on experience with frontend implementation from design mockups
 - Better understanding of layout techniques (Flexbox, Grid)
 - Practice with responsive design for multiple screen sizes
-- Collaboration using GitHub workflow
+- Collaboration using GitHub workflow 
+-->
 
 ## 📌 Future Plans
 - Convert to React components (MERN Stack integration)
@@ -40,7 +35,7 @@ This repository showcases the conversion of a modern Figma web design into a ful
 
 ## 🌐 Live Preview
 
-🔗 [Click here to view the live demo](https://figma-design-to-code.vercel.app/)
+🔗 [Click here to view the live demo](https://figma-design-to-code.vercel.app)
 
 > This project is deployed using [Vercel](https://vercel.com/), ensuring fast and reliable hosting.
 
