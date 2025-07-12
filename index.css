@@ -204,6 +204,14 @@ body{
 /* nav - menubar styles ends */
 
 /* HOME PAGE  */
+/*
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+* Page 1
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
 .homepage{
     display: flex;
     width: 90%;
@@ -531,8 +539,14 @@ body{
 
 
 
-/* ################################# */
-/* homePage2 */
+/*
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+* Page 2
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
 .homePage2{
     display: flex;
     flex-direction: column;
@@ -653,8 +667,14 @@ body{
     }
 }
 
+/*
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-/*page 3*/
+* Page 3
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
 .homepage3{
     width: 80%;
     margin: 120px auto;
@@ -737,60 +757,20 @@ body{
     padding-bottom: 10px;
 }
 
- /* home page 4  */
+/*
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+* Page 4
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
  .homepage4{
      background-color: #f08f64; 
      padding-left:140px;
      padding-right:140px;
   }
     
-@media screen and (max-width: 1600px) {
-     .homepage4{
-      background-color: #f08f64; 
-      padding: 0px;
-      }
-      .page2photoleft{
-        height: auto;
-      }
-}
-
-@media screen and (max-width: 960px) {
-     .homepage4{
-      background-color: #00ff00; 
-      padding: 0px;
-      }
-      .page2photoleft{
-        height: auto;
-      }
-}
-
-
-@media screen and (max-width: 1600px) {
-    .homepage4{
-        /* margin-bottom: 0px; */
-    padding-bottom: 620px;
-    }
-    .homepage4inside, 
-    .homepage4{
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        }
-    .hp4right{
-        /* width: 1000px; */
-        margin: auto;
-    }
-    .hp4left{
-        margin: auto;
-        padding: 0;
-    }
-    .right4{
-        margin: auto;
-    }
-    .phototextHP4{
-        width: 840px;
-    }
-}
 
 .homepage4inside{
     /* margin: auto; */
@@ -811,8 +791,6 @@ body{
     /* gap: 30px; */
     /* flex-direction: column; */
 }
-
-
 
 .latest{
     /* width: 100%; */
@@ -840,21 +818,6 @@ body{
     left: 25px;
 }
 
-@media screen and (max-width: 980px) {
-    .page2photoleft{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    }
-    .content4{
-        margin: auto;
-        flex-direction: column;
-        margin-bottom: 550px;
-    }
-    
-    
-}
 
 .imgbox img{
     width: 430px;
@@ -897,6 +860,7 @@ body{
 }
 
 .right4{
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
 }
@@ -931,6 +895,69 @@ body{
     font-weight: 600;
 }
 
-/* .hp4rightP{
+
+@media screen and (max-width: 1600px) {
+     .homepage4{
+      background-color: #f08f64; 
+      padding: 0px;
+    }
+    .page2photoleft{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .homepage4{
+      padding: 0px;
+      background-color: #00ff00; 
+      padding: 0px;
+    }
+    .page2photoleft{
+        background-color: #00ff00; 
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 1600px) {
+    .homepage4{
+    /* margin-bottom: 0px; */
+    padding-bottom: 620px;
+    }
+    .homepage4inside, 
+    .homepage4{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        }
+    .hp4right{
+        /* width: 1000px; */
+        margin: auto;
+    }
+    .hp4left{
+        margin: auto;
+        padding: 0;
+    }
+    .right4{
+        margin: auto;
+    }
+    .phototextHP4{
+        width: 840px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .page2photoleft{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    }
+    .content4{
+        margin: auto;
+        flex-direction: column;
+        margin-bottom: 550px;
+    }
     
-} */
+    
+}
