@@ -7,7 +7,7 @@ This repository showcases the conversion of a modern Figma web design into a ful
 - HTML5  
 - CSS3  
 - JavaScript (vanilla)  
-- [Figma](https://www.figma.com/) (for design reference)
+- Figma [(for design reference)](https://www.figma.com/design/is3KM44uHAxDSzwxNLev2H/Narratica---Blog-Landing-Page--Community-?node-id=0-1&p=f)
 
 > _Note: This repository only covers the frontend (UI) part of the MERN stack. Backend (Node.js, Express, MongoDB) will be implemented in future tasks._
 
@@ -35,7 +35,7 @@ This repository showcases the conversion of a modern Figma web design into a ful
 
 ## 🌐 Live Preview
 
-🔗 [Click here to view the live demo](https://figma-design-to-code.vercel.app/)
+🔗 [Click here to view the live demo](https://figmatocode1.vercel.app)
 
 > This project is deployed using [Vercel](https://vercel.com/), ensuring fast and reliable hosting.
 
