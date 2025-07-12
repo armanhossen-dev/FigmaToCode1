@@ -864,7 +864,7 @@ homepage 4 er aro responsive kor te hobe next time
 .boxwithphot{
     display: flex;
     width: 100%;
-    background-color: #32c2d2;
+    /* background-color: #32c2d2; */
     margin: auto;
 }
 
@@ -919,7 +919,7 @@ homepage 4 er aro responsive kor te hobe next time
 @media screen and (max-width: 1600px) {
     
     .homepage4{
-      background-color: #f08f64; 
+      background-color: #ee9670f5; 
       padding: 0px;
     }
     .latest{
@@ -966,7 +966,6 @@ homepage 4 er aro responsive kor te hobe next time
     }
 }
 
-
 @media screen and (max-width: 980px) {
     .page2photoleft{
         flex-direction: column;
@@ -997,9 +996,96 @@ homepage 4 er aro responsive kor te hobe next time
         width: 440px;
         /* margin: auto; */
         margin-top: 00px;
-    }
-    
+    } 
+}
+/*
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+* Page 5
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+.homepage5{
+    margin-top: 40px;
 }
 
+.hp5{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 90vh;
+    background-color: #38ade5;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
+.home5left,
+.home5right{
+    height: 90vh;
+    background-color: #32d255;
+}
+
+.home5left{
+    width: 55%;
+    left: 0px;
+    background-color: #6e41e8;
+    display: flex; 
+    flex-direction: column;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+.h5_left_text{
+    /* padding: 10px; */
+    width: 95%;
+    /* height: 100px; */
+    text-transform: uppercase;
+
+    background-color: #ff0000;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 30px  17px 20px 30px  ;
+}
+.h5_right_text{
+    width: 95%;
+    /* height: 100px; */
+    text-transform: uppercase;
+
+    background-color: #ff0000;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 30px  0px 20px 30px  ;
+}
+
+.gridboxs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.hp5Box{
+    width: 450px;
+    height: 350px;
+    /* background: linear-gradient(45deg, #0eb3e6, #0026ff);    */
+    background-color: darkblue;
+}
+
+.home5right{
+    /* padding: 10px; */
+    width: 35%;
+    left: auto;
+}
+
+.content5right{
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/hp5_Right.jpg);
+    background-size: contain;
+    border-radius: 15px;
+    
+}
