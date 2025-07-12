@@ -57,6 +57,5 @@ This repository showcases the conversion of a modern Figma web design into a ful
 - Add backend support for dynamic data rendering
 
 ---
----
 
 Feel free to fork, star, and explore. For any feedback or improvement suggestions, create an issue or pull request!
