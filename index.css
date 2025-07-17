@@ -1563,35 +1563,43 @@ homepage 4 er aro responsive kor te hobe next time
 
 .home8contents{
     margin: auto;
+    margin-top: 20px;
     width: 1720px;
     height: 750px;
-    background-color: #32d255;
+    /* background-color: #32d255; */
     position: relative;
     display: flex;
     gap: 20px;
 }
 
 .h8bigphotoleft{
-    margin: 20px 0px 20px 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    
     height: 710px;
     width: 1000px;
-    background-color: #dd1313;
+    /* background-color: #dd3b13; */
+    background-image: url('imgs/h8c.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 5px;
 }
 
 .h82smallphotoright{
     height: 100%;
     width: 680px;
-    background-color: #13d6dd;
+    /* background-color: #13d6dd; */
     display: flex;
     flex-direction: column;
 }
 
 .box82,
 .box83{
-    margin: 20px;
+    margin: 10px;   
+    gap: 20px;
     width: 640px;
-    height: 370px;
+    height: 350px;
     background-color: #4152e8;
     border-radius: 5px;
     background-size: cover;
