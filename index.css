@@ -1401,6 +1401,7 @@ homepage 4 er aro responsive kor te hobe next time
     align-items: center;
 }
 
+
 /* home6 responsive kora hoi ni akon o */
 
 
@@ -1411,6 +1412,14 @@ homepage 4 er aro responsive kor te hobe next time
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
+
+.arrow7{
+    font-size: 26px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+}
 
 .homepage7{
     width: 100%;
@@ -1437,9 +1446,6 @@ homepage 4 er aro responsive kor te hobe next time
     align-items: center;
 }
 
-.r_Team7{
-    /*  */
-}
 
 .view_all{
     font-size: 22px;
@@ -1450,12 +1456,11 @@ homepage 4 er aro responsive kor te hobe next time
     padding: 34px;
     left: 310px;
     display: flex;
-    /* display: flex; */
-    padding-left: 30px;
+    padding-left: 10px;
     /* justify-content: center; */
     /* align-content: center; */
     align-items: center;
-    /* background-color: #32d255; */
+    background-color: #32d255;
 }
 
 
@@ -1466,6 +1471,7 @@ homepage 4 er aro responsive kor te hobe next time
     justify-content: space-evenly;
     gap: 40px;
     align-content: center;
+    padding: 40px;
 }
 
 .box71,
@@ -1473,11 +1479,30 @@ homepage 4 er aro responsive kor te hobe next time
 .box73{
     width: 480px;
     height: 550px;
-    background-color:  aqua;
+    background-color:  rgb(39, 129, 248);
+    border-radius: 8px;
 }
 
+.box71{
+    background-image: url('imgs/hp71');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
 
+.box72{
+    background-image: url('imgs/hp72');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
 
-
+.box73{
+    background-image: url('imgs/hp73');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
 
 /* 14-7-2025 */
+
