@@ -1576,7 +1576,7 @@ homepage 4 er aro responsive kor te hobe next time
     margin-top: 10px;
     margin-left: 20px;
     padding-bottom: 10px;
-    
+
     height: 710px;
     width: 1000px;
     /* background-color: #dd3b13; */
@@ -1612,3 +1612,265 @@ homepage 4 er aro responsive kor te hobe next time
 .box83{
     background-image: url('imgs/h8right12.jpg');
 }    
+
+.time8{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 110px;
+    height: 25px;
+    text-align: center;
+
+    position: relative;
+    top: 40px;
+    left: 50px;
+    background-color: #e0784f;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.shadowbox8left{
+    position: relative;
+    top: 185px;
+    width: 920px;
+    height: 420px;
+    /* background-color: #38ade8; */
+    background: linear-gradient(0, rgba(0, 0, 0, 0.842),rgba(0, 0, 0,0));
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.shadow8NameL{
+    position: relative;
+    top: 270px;
+    left: 20px;
+    color: white;    
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.titleIn8lef{
+    position: relative;
+    top: 290px;
+    left: 20px;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.shadowbox8Right{
+    /* background-color: #32d255; */
+    position: relative;
+    top: 150px;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(0, rgba(0, 0, 0, 0.842),rgba(0, 0, 0,0));
+}
+
+.shadow8NameR{
+    position: relative;
+    top: 60px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 22px;
+}
+.titleIn8R{
+    position: relative;
+    top: 30px;
+
+    color: white;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+
+.foot{
+    background-color: black;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fmain{
+    position: relative;
+    top: 40px;
+    background-color: #32d255;
+    margin: auto;
+    padding: 20px;
+    width: 1700px;
+    height: 550px;
+    display: flex;
+    gap: 50px;
+}
+
+
+
+.fleft{
+    background-color: #6e41e8;
+    width: 900px;
+    height: inherit;
+    margin: 20px;
+}
+
+
+
+/* .flpadding{ 
+     padding: 40px; 
+} */
+
+.StayUpdatedText{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.inputAndButto{
+    display: flex;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.emailinput{
+    width: 270px;
+    padding: 10px;
+    padding-left: 65px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: black;
+}
+
+.logoinEmail{
+    position: absolute;
+    background-image: url('imgs/mail-icon.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    z-index: 1px;
+    margin-left: 20px;
+}
+
+.subsbtn{
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #e0784f;
+    font-weight: 600;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    border: 0px;
+    cursor: pointer;
+}
+
+
+.hrc{
+    /* background-color: #32d255; */
+    opacity: .8;
+    /* margin-bottom: 20px; */
+    margin-bottom: 40px;
+}
+
+.liner_boxf3{
+    width: 100%;
+    height: 350px;
+    /* background-color: #fff; */
+}
+
+.liner_boxf3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 20px; */
+
+}
+
+/* .fpages,
+.fcategories,
+.fresources{
+    background-color: #f04f84; 
+} */
+
+.fpages a,
+.fcategories a,
+.fresources a{
+    text-decoration: none;
+}
+
+.fpages li,
+.fcategories li,
+.fresources li{
+    margin-top: 10px;
+    list-style: none;
+    color: white;
+    font-weight: 500;
+}
+
+.fh{
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+
+.fri{
+    background-color: #6e41e8;
+    width: 600px;
+    height: inherit;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btnfake{
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+
+.btnImage{
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    opacity: .5;
+    position: relative;
+    margin: 15px;
+    background-image: url('imgs/fb.png');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 20px;
+}
+
+.btnImage::after{
+    content: '';
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    z-index: 1;
+}
+
+
+.btnfake{
+    background-color: black;
+    color: white;
+    font-size: 26px;
+}
+
+.lastf{
+    background-color: #38ade8;
+    height: 60px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 10px;
+    width: 1700px;
+}
+
