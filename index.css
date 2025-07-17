@@ -1705,14 +1705,15 @@ homepage 4 er aro responsive kor te hobe next time
     width: 1700px;
     height: 550px;
     display: flex;
-    gap: 50px;
+    gap: 0px;
 }
 
 
 
 .fleft{
-    /* background-color: #6e41e8; */
-    width: 900px;
+    /* background-color: #d18b09; */
+    width: 1000px;
+    padding-right: 30px;
     height: inherit;
     margin: 20px;
 }
@@ -1740,7 +1741,7 @@ homepage 4 er aro responsive kor te hobe next time
     width: 270px;
     padding: 10px;
     padding-left: 65px;
-    font-size: 16px;
+    font-size: 15px;
     color: rgb(255, 255, 255);
     border-radius: 25px;
     border: 1px solid white;
@@ -1782,13 +1783,14 @@ homepage 4 er aro responsive kor te hobe next time
 .liner_boxf3{
     width: 100%;
     height: 350px;
-    /* background-color: #fff; */
+    /* background-color: #a51e1e;  */
 }
 
 .liner_boxf3{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* gap: 20px; */
+    gap: 40px;
+    /* justify-content: space-around; */
 
 }
 
@@ -1822,47 +1824,97 @@ homepage 4 er aro responsive kor te hobe next time
 
 
 .fri{
-    /* background-color: #6e41e8; */
+    /* background-color: #6e41e8;  */
     width: 600px;
-    height: inherit;
+    /* width: 900px; */
+    height: 500px;
     margin: 20px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
-.btnfake{
-    display: flex;
-    width: 100%;
-    height: 80px;
-}
 
-.btnImage{
-    z-index: 2;
-    width: 40px;
-    height: 40px;
-    opacity: .5;
+.btnf{
     position: relative;
-    margin: 15px;
-    background-image: url('imgs/fb.png');
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    left: 20px;
-}
-
-.btnImage::after{
-    content: '';
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    z-index: 1;
-}
-
-
-.btnfake{
-    background-color: black;
+    width: inherit;
+    height: 70px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 90px;
     color: white;
-    font-size: 26px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    border: none;
+    opacity: .8;
+    transition: all .3s ease-in-out;
+}
+
+.btnf:hover{
+    /* background-color: #38ade8; */
+    .logo_footer_btn{
+        opacity: 1;
+    }
+}
+
+.logo_footer_btn{
+    position: absolute;
+    top: 5.5px;
+    left: 5.5px;
+    padding: 2px;
+    height: 55px;
+    width: 55px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .4;
+}
+
+.fb{
+    background-image: url('imgs/fb.png');
+}
+.yt{
+    background-image: url('imgs/yt.png');
+}
+.ins{
+    background-image: url('imgs/ins.png');
+}
+.x{
+    background-image: url('imgs/x.png');
+}
+.redd{
+    background-image: url('imgs/redd.png');
+}
+.com{
+    background-image: url('imgs/rss.png');
+}
+
+.farrow{
+    position: relative;
+    left: 385px;
+    font-size: 28px;
+}
+
+ 
+.socialhr{ 
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.op8{
+    opacity: .8;
+}
+.op7{
+    opacity: .7;
+}
+.op6{
+     opacity: .6;
+}
+.op5{
+    opacity: .5;
 }
 
 .lastf{
