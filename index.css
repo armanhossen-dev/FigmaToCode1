@@ -1851,12 +1851,11 @@ homepage 4 er aro responsive kor te hobe next time
     align-content: center;
     cursor: pointer;
     border: none;
-    opacity: .8;
     transition: all .3s ease-in-out;
 }
 
 .btnf:hover{
-    /* background-color: #38ade8; */
+    background-color: #5858583f;
     .logo_footer_btn{
         opacity: 1;
     }
@@ -1873,7 +1872,6 @@ homepage 4 er aro responsive kor te hobe next time
     background-repeat: no-repeat;
     opacity: .4;
 }
-
 .fb{
     background-image: url('imgs/fb.png');
 }
@@ -1889,7 +1887,7 @@ homepage 4 er aro responsive kor te hobe next time
 .redd{
     background-image: url('imgs/redd.png');
 }
-.com{
+.lnk{
     background-image: url('imgs/rss.png');
 }
 
@@ -1899,7 +1897,49 @@ homepage 4 er aro responsive kor te hobe next time
     font-size: 28px;
 }
 
- 
+
+.farrow{
+    position: relative;
+    left: 385px;
+    font-size: 28px;
+}
+
+.farrow1{
+    position: relative;
+    left: 385px;
+    font-size: 28px;
+}
+.farrow2{
+    position: relative;
+    left: 400px;
+    font-size: 28px;
+}
+.farrow3{
+    position: relative;
+    left: 380px;
+    font-size: 28px;
+}
+.farrow4{
+    position: relative;
+    left: 410px;
+    font-size: 28px;
+}
+.farrow5{
+    position: relative;
+    left: 405px;
+    font-size: 28px;
+}
+.farrow5{
+    position: relative;
+    left: 415px;
+    font-size: 28px;
+}
+.farrow6{
+    position: relative;
+    left: 395px;
+    font-size: 28px;
+}
+
 .socialhr{ 
     margin-top: 4px;
     margin-bottom: 4px;
