@@ -1457,8 +1457,6 @@ homepage 4 er aro responsive kor te hobe next time
     left: 310px;
     display: flex;
     padding-left: 10px;
-    /* justify-content: center; */
-    /* align-content: center; */
     align-items: center;
     /* background-color: #32d255; */
 }
@@ -1469,40 +1467,140 @@ homepage 4 er aro responsive kor te hobe next time
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    gap: 40px;
+    gap: 10px;
     align-content: center;
-    padding: 40px;
+    padding: 30px;
 }
 
 .box71,
 .box72,
 .box73{
-    width: 480px;
-    height: 550px;
+    width: 500px;
+    height: 590px;
     background-color:  rgb(39, 129, 248);
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .box71{
-    background-image: url('imgs/hp71');
+    background-image: url('imgs/HP71.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
 }
 
 .box72{
-    background-image: url('imgs/hp72');
+    background-image: url('imgs/HP72.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
 }
 
 .box73{
-    background-image: url('imgs/hp73');
+    background-image: url('imgs/HP73.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
 }
 
-/* 14-7-2025 */
+.box7insideText{
+    position: relative;
+    top: 500px;
+    width: 100%;
+    height: 90px;
+    /* background-color: #32d255; */
 
+    display: flex;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
+
+.rTitle7,    
+.lbox7{
+    height: 90px;
+    align-content: center;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.lbox7{
+   padding-left: 40px;
+   width: 65%;
+   font-weight: 700;
+   font-size: 22px;
+}
+
+.rTitle7{
+    font-size: 16px;
+    width: 30%;
+    font-weight: 600;
+}   
+
+
+/*
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+* Page 8
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+.l_Team8{
+    height: 100px;
+    width: 70%;
+    font-size: 45px;
+    font-weight: 650;
+    text-transform: uppercase;
+    
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+}
+
+.homepage8{
+    width: 100%;
+    height: 100vh;
+}
+
+.home8contents{
+    margin: auto;
+    width: 1720px;
+    height: 750px;
+    background-color: #32d255;
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+
+.h8bigphotoleft{
+    margin: 20px 0px 20px 20px;
+    height: 710px;
+    width: 1000px;
+    background-color: #dd1313;
+    border-radius: 5px;
+}
+
+.h82smallphotoright{
+    height: 100%;
+    width: 680px;
+    background-color: #13d6dd;
+    display: flex;
+    flex-direction: column;
+}
+
+.box82,
+.box83{
+    margin: 20px;
+    width: 640px;
+    height: 370px;
+    background-color: #4152e8;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box82{
+    background-image: url('imgs/h8right11.jpg');
+}    
+.box83{
+    background-image: url('imgs/h8right12.jpg');
+}    
