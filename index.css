@@ -1699,7 +1699,7 @@ homepage 4 er aro responsive kor te hobe next time
 .fmain{
     position: relative;
     top: 40px;
-    background-color: #32d255;
+    /* background-color: #32d255; */
     margin: auto;
     padding: 20px;
     width: 1700px;
@@ -1711,7 +1711,7 @@ homepage 4 er aro responsive kor te hobe next time
 
 
 .fleft{
-    background-color: #6e41e8;
+    /* background-color: #6e41e8; */
     width: 900px;
     height: inherit;
     margin: 20px;
@@ -1733,7 +1733,7 @@ homepage 4 er aro responsive kor te hobe next time
 .inputAndButto{
     display: flex;
     margin-bottom: 30px;
-    gap: 10px;
+    gap: 20px;
 }
 
 .emailinput{
@@ -1822,7 +1822,7 @@ homepage 4 er aro responsive kor te hobe next time
 
 
 .fri{
-    background-color: #6e41e8;
+    /* background-color: #6e41e8; */
     width: 600px;
     height: inherit;
     margin: 20px;
