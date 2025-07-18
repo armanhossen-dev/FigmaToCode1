@@ -1689,6 +1689,13 @@ homepage 4 er aro responsive kor te hobe next time
 }
 
 
+
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ Footer
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
 .foot{
     background-color: black;
     height: 750px;
@@ -1958,11 +1965,71 @@ homepage 4 er aro responsive kor te hobe next time
 }
 
 .lastf{
-    background-color: #38ade8;
-    height: 60px;
+    /* background-color: #38ade8; */
+    height: 70px;
     margin: auto;
-    padding: 20px;
     padding-top: 10px;
     width: 1700px;
+    display: flex;
+    margin-bottom: 30px;
+    gap: 20px;
 }
 
+.logof{
+    background-image: url('imgs/footerLogo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    position: relative;
+    left: 10px;
+    width: 180px;
+    height: 40px;
+    /* background-color:  #32d255; */
+}
+
+.vr{
+    /* padding: 10px; */
+    font-size: 45px;
+     position: relative;
+    top: -5px;
+    color: #262626;
+}
+
+.ptl{
+    list-style: none;
+    margin: 10px;
+    gap: 20px;
+    display: flex;
+}
+.ptl a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.ptl li{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.lastwords{
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+    margin-left: 490px;
+}
+
+.figmalink,
+.myportfoliolink{
+    text-decoration: none;
+    color: #38bff8e0;
+    font-weight: 600;
+    /* font-style: italic; */
+}
+
+.figmalink:hover,
+.myportfoliolink:hover {
+    color: #38bdf8;
+    text-shadow: 0 0 8px rgba(56, 189, 248, 0.8);
+}
