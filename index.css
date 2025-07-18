@@ -3,7 +3,10 @@
                 Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
+}
 
+html {
+  scroll-behavior: smooth;
 }
 
 body{
@@ -1688,8 +1691,6 @@ homepage 4 er aro responsive kor te hobe next time
     font-size: 26px;
 }
 
-
-
 /*
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  Footer
@@ -1715,8 +1716,6 @@ homepage 4 er aro responsive kor te hobe next time
     gap: 0px;
 }
 
-
-
 .fleft{
     /* background-color: #d18b09; */
     width: 1000px;
@@ -1724,12 +1723,6 @@ homepage 4 er aro responsive kor te hobe next time
     height: inherit;
     margin: 20px;
 }
-
-
-
-/* .flpadding{ 
-     padding: 40px; 
-} */
 
 .StayUpdatedText{
     font-size: 22px;
@@ -1801,12 +1794,6 @@ homepage 4 er aro responsive kor te hobe next time
 
 }
 
-/* .fpages,
-.fcategories,
-.fresources{
-    background-color: #f04f84; 
-} */
-
 .fpages a,
 .fcategories a,
 .fresources a{
@@ -1833,7 +1820,6 @@ homepage 4 er aro responsive kor te hobe next time
 .fri{
     /* background-color: #6e41e8;  */
     width: 600px;
-    /* width: 900px; */
     height: 500px;
     margin: 20px;
     margin-top: 0px;
@@ -1841,7 +1827,6 @@ homepage 4 er aro responsive kor te hobe next time
     flex-direction: column;
     padding: 20px;
 }
-
 
 .btnf{
     position: relative;
@@ -1988,9 +1973,8 @@ homepage 4 er aro responsive kor te hobe next time
 }
 
 .vr{
-    /* padding: 10px; */
     font-size: 45px;
-     position: relative;
+    position: relative;
     top: -5px;
     color: #262626;
 }
@@ -2025,11 +2009,11 @@ homepage 4 er aro responsive kor te hobe next time
     text-decoration: none;
     color: #38bff8e0;
     font-weight: 600;
-    /* font-style: italic; */
 }
 
 .figmalink:hover,
 .myportfoliolink:hover {
     color: #38bdf8;
-    text-shadow: 0 0 8px rgba(56, 189, 248, 0.8);
 }
+    
+/*  Next Time I have to make it Responsive  for phone :) */
