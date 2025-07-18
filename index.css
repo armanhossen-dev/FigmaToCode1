@@ -1607,7 +1607,7 @@ homepage 4 er aro responsive kor te hobe next time
 }
 
 .box82{
-    background-image: url('imgs/h8right11.jpg');
+    background-image: url('imgs/h8right11.png');
 }    
 .box83{
     background-image: url('imgs/h8right12.jpg');
@@ -1671,7 +1671,7 @@ homepage 4 er aro responsive kor te hobe next time
 
 .shadow8NameR{
     position: relative;
-    top: 60px;
+    top: 25px;
     font-size: 15px;
     color: white;
     font-weight: 500;
@@ -1680,7 +1680,7 @@ homepage 4 er aro responsive kor te hobe next time
 }
 .titleIn8R{
     position: relative;
-    top: 30px;
+    top: 0px;
 
     color: white;
     padding: 20px;
